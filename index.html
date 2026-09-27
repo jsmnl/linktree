@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jsmnl</title>
+  <meta name="description" content="jsmnl — todas mis redes en un solo sitio." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="jsmnl" />
+  <meta property="og:description" content="Todas mis redes en un solo sitio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jsmnl.vantag.dev" />
+
+  <!-- Favicon: punto minimalista -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%231c1c1c'/%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">
+    <span class="icon-sun" aria-hidden="true">◐</span>
+  </button>
+
+  <main class="card">
+    <header class="head">
+      <h1 class="name">jsmnl</h1>
+    </header>
+
+    <nav class="links" id="links" aria-label="Redes sociales">
+      <!-- Se pinta desde links.js -->
+    </nav>
+
+    <footer class="foot">
+      <span>© <span id="year"></span> jsmnl</span>
+    </footer>
+  </main>
+
+  <script src="links.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
