@@ -5,7 +5,7 @@ const LINKS = [
     icon: "github",
   },
   {
-    name: "X",
+    name: "X / Twitter",
     url: "https://x.com/jsmnlme",
     icon: "x",
   },
